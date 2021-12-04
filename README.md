@@ -12,6 +12,9 @@
 
 <script src="https://customer.smartsender.eu/js/client/lp.min.js?v2.0.0"></script>
 
+
+
+
 У Вас прикреплен домен: lp.mysite.com
 
 В первой части необходимо добавить атрибут  my-domain="lp.mysite.com"
