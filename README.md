@@ -8,7 +8,7 @@
 
 Например текущий код выглядит так:
 
-\<div id="j2RY8hDT" class="ss-landing" data-target="j2RY8hDT" data-domain="lendings"></div>
+\<div id="j2RY8hDT" class="ss-landing" data-target="j2RY8hDT" data-domain="lendings">\</div>
 
 <script src="https://customer.smartsender.eu/js/client/lp.min.js?v2.0.0"></script>
 
@@ -19,7 +19,7 @@
 
 В первой части необходимо добавить атрибут  my-domain="lp.mysite.com"
 
-\<div id="j2RY8hDT" class="ss-landing" data-target="j2RY8hDT" data-domain="lendings" my-domain="lp.mysite.com"></div>
+\<div id="j2RY8hDT" class="ss-landing" data-target="j2RY8hDT" data-domain="lendings" my-domain="lp.mysite.com">\</div>
 
 Во второй части заменить ссылку на файл, размещен на Вашем хостинге (из этого репозитория)
 
