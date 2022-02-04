@@ -1,0 +1,10 @@
+<script>
+var div = document.getElementsByClassName('widget-footer')[0];
+var description = div.innerHTML;
+var newDescription = description.replace('You agree with', 'Вы соглашаетесь с').replace('Terms of use', 'Условиями использования').replace('Terms of use', 'Условиями использования').replace('and', 'и').replace('Privacy policy', 'Политикой приватности').replace('Privacy policy', 'Политикой приватности').replace('Powered by', 'Сделано на');
+div.innerHTML = newDescription;
+</script>
+
+
+Добавьте данный 👆 код в body в разделе домен и надписи в самом низу виджета будут переведены на русский язык
+P.S. Вы можете самостоятельно перевести текст на любой другой язык 😎
