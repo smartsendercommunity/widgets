@@ -1,0 +1,42 @@
+Код в head
+
+<script>
+let identifier = window.location.href.split('?')[0].split('/lp/')[1];
+</script>
+
+
+Код в body
+
+<script>
+var widgetDiv = document.getElementsByClassName('widget-view')[0];
+widgetDiv.classList.add('widget-'+identifier+'-view');
+</script>
+
+
+Этот код добавит элементам виджета идентификатор, что позволит применять уникальные стили к каждому отдельному виджету:
+
+
+Код стиля, применимый ко всем виджетам:
+
+<style type="text/css"> 
+.widget-view .widget-description{
+.....
+}
+.widget-view .widget-title {
+.....
+}
+</style>
+
+
+Код, применимый к одному конкретному виджету
+
+<style type="text/css"> 
+.widget-a7PxNer7-view .widget-description{
+.....
+}
+.widget-a7PxNer7-view .widget-title {
+.....
+}
+</style>
+
+Идентификатор в коде используется из ссылки виджета: https://prnt.sc/6TGB8A3mlPzP
