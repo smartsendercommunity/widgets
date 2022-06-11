@@ -25,10 +25,10 @@ font-size:18px !important;
 text-align:center !important;
 color:#0355aa !important;
 font-weight:600 !important;
-padding-bottom:0px !important;
+margin-top:10px !important;
 padding-left:10px !important;
 padding-right:10px !important;
-margin-top:10px !important;
+padding-bottom:0px !important;
 
 }
 .widget-view .widget-title {
@@ -37,12 +37,12 @@ font-size:18px !important;
 text-align:center !important;
 color:#333333 !important;
 font-weight:400 !important;
-padding-top:15px !important;
-padding-bottom:15px !important;
-padding-left:10px !important;
-padding-right:10px !important;
-margin-top:10px !important;
-margin-bottom:10px !important;
+margin-top:10px !important; 
+padding-top:15px !important; 
+padding-left:10px !important; 
+padding-right:10px !important; 
+padding-bottom:15px !important; 
+margin-bottom:10px !important; 
 
 }
 </style>
@@ -57,10 +57,10 @@ font-size:18px !important;
 text-align:center !important;
 color:#090808 !important;
 font-weight:600 !important;
-padding-bottom:0px !important;
+margin-top:10px !important;
 padding-left:10px !important;
 padding-right:10px !important;
-margin-top:10px !important;
+padding-bottom:0px !important;
 
 }
 .widget-a7PxNer7-view .widget-title {
@@ -69,12 +69,13 @@ font-size:18px !important;
 text-align:center !important;
 color:#090808 !important;
 font-weight:400 !important;
-padding-top:15px !important;
-padding-bottom:15px !important;
-padding-left:10px !important;
-padding-right:10px !important;
-margin-top:10px !important;
-margin-bottom:10px !important;
+margin-top:10px !important; 
+padding-top:15px !important; 
+padding-left:10px !important; 
+padding-right:10px !important; 
+padding-bottom:15px !important; 
+margin-bottom:10px !important; 
+
 
 }
 </style>
