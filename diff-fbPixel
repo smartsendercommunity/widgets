@@ -1,18 +1,22 @@
 Инструкция (можно делать в "блокноте"):
 1. Скопируйте "чистый" код
 2. Укажите окончание ссылки на виджет: https://prnt.sc/4Uqq3ulBzLWf
-3. Скопируйте часть кода Facebook Pixel (между строками <script> и </script>) внутрь кавычек: https://prnt.sc/bTWuRnVvd8Vh
+3. Скопируйте часть кода Facebook Pixel (между строками <script> и </script>) внутрь двойных кавычек 
+   и вторую часть (между <noscript> и </noscript>) внутрь одинарных кавычек: https://prnt.sc/VOZtHjcTwDSB
 4. Получившийся код добавьте в Head в разделе "Домен": https://prnt.sc/3FLdk34Wrvua
 
 
 /* "Чистый" код, в который копируется часть кода Facebook Pixel */
 
 <script>
-	if (window.location.href.split('?')[0].split('/lp/')[1] == "a7PxNer7") {
-		var fbpixel = document.createElement('script');
-		fbpixel.innerHTML = "";
-		document.head.appendChild(fbpixel);
-	}
+if (window.location.href.split('?')[0].split('/lp/')[1] == "a7PxNer7") {
+var fbpixel = document.createElement('script');
+fbpixel.innerHTML = "";
+document.head.appendChild(fbpixel);
+var fbnoscript = document.createElement('noscript');
+fbnoscript.innerHTML = '';
+document.head.appendChild(fbnoscript);
+}
 </script>
 
 
@@ -54,5 +58,10 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '1234567890123');
 fbq('track', 'PageView');";
 document.head.appendChild(fbpixel);
+var fbnoscript = document.createElement('noscript');
+fbnoscript.innerHTML = '<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1234567890123&ev=PageView&noscript=1"
+/>';
+document.head.appendChild(fbnoscript);
 }
 </script>
