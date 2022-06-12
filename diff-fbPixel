@@ -3,7 +3,6 @@
 2. Укажите окончание ссылки на виджет: https://prnt.sc/4Uqq3ulBzLWf
 3. Скопируйте часть кода Facebook Pixel (между строками <script> и </script>) внутрь кавычек: https://prnt.sc/bTWuRnVvd8Vh
 4. Получившийся код добавьте в Head в разделе "Домен": https://prnt.sc/3FLdk34Wrvua
-https://prnt.sc/bTWuRnVvd8Vh
 
 
 /* "Чистый" код, в который копируется часть кода Facebook Pixel */
